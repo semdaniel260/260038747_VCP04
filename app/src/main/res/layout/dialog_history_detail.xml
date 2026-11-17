@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Round Details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvDetailUserRound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player: Test | Round: 1"
+            android:textSize="14sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvDetailBingoStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bingo Status: YES (1 Line)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvDetailWinningLines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Winning Lines: Row 1"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Drawn Numbers Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numbers Drawn in Round:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvDetailDrawnNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[None]"
+            android:textSize="13sp"
+            android:background="#E8EAF6"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Card Grid Numbers:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvDetailCardGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[1, 2, 3...]"
+            android:textSize="13sp"
+            android:background="#F5F5F5"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnCloseDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

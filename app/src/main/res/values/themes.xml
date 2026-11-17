@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with modern Material colors -->
+    <style name="Theme.L10VCP04" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <!-- Accent / Secondary color -->
+        <item name="colorAccent">#FF4081</item>
+        <!-- Window background -->
+        android:windowBackground
+        <item name="android:windowBackground">#F5F5F5</item>
+    </style>
+</resources>
